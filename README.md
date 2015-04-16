@@ -1,8 +1,6 @@
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/airbnb/javascript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+# Dotcreek JavaScript Style Guide
 
-# Airbnb JavaScript Style Guide() {
-
-*A mostly reasonable approach to JavaScript*
+*based on [airbnb styleguide](https://github.com/airbnb/javascript)*
 
 
 ## Table of Contents
@@ -758,12 +756,12 @@
 
 ## Whitespace
 
-  - Use soft tabs set to 2 spaces.
+  - Use soft tabs set to **4** spaces.
 
     ```javascript
     // bad
     function() {
-    ∙∙∙∙var name;
+    ∙∙var name;
     }
 
     // bad
@@ -773,20 +771,20 @@
 
     // good
     function() {
-    ∙∙var name;
+    ∙∙∙∙var name;
     }
     ```
 
-  - Place 1 space before the leading brace.
+  - Place 0 space before the leading brace.
 
     ```javascript
-    // bad
+    // good
     function test(){
       console.log('test');
     }
 
-    // good
-    function test() {
+    // bad
+    function test(){
       console.log('test');
     }
 
@@ -812,7 +810,7 @@
     }
 
     // good
-    if (isJedi) {
+    if (isJedi){
       fight();
     }
 
@@ -822,7 +820,7 @@
     }
 
     // good
-    function fight() {
+    function fight(){
       console.log('Swooosh!');
     }
     ```
@@ -1699,15 +1697,6 @@
 
   - [Reference](https://github.com/airbnb/javascript/wiki/The-JavaScript-Style-Guide-Guide)
 
-## Chat With Us About JavaScript
-
-  - Find us on [gitter](https://gitter.im/airbnb/javascript).
-
-## Contributors
-
-  - [View Contributors](https://github.com/airbnb/javascript/graphs/contributors)
-
-
 ## License
 
 (The MIT License)
@@ -1735,4 +1724,3 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 **[⬆ back to top](#table-of-contents)**
 
-# };
